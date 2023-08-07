@@ -18,6 +18,7 @@
     <div class="main">
       <form action="/Pages/Login.html">
         <!-- <fieldset> -->
+        <fieldset>
         <legend><h1>Signup Form</h1></legend>
 
         <label>First Name: </label>
@@ -74,17 +75,17 @@
         <br /><br />
 
         <label for="sk">Skills: </label>
-        <input type="checkbox" id="sk" name="sk" value="sql" />SQL
-        <input type="checkbox" id="sk" name="sk" value="web" />WEB TECH
-        <input type="checkbox" id="sk" name="sk" value="python" />PYTHON
-        <input type="checkbox" id="sk" name="sk" value="cloud" />CLOUD
+        <input type="checkbox" id="sk" name="sk" value="sql"/> SQL
+        <input type="checkbox" id="sk" name="sk" value="web"/> WEB TECH
+        <input type="checkbox" id="sk" name="sk" value="python"/> PYTHON
+        <input type="checkbox" id="sk" name="sk" value="cloud"/> CLOUD
         <br /><br />
 
-        <label>Address</label><br />
+        <label>Address:</label><br />
         <textarea name="Address" id="add" cols="15" rows="5"></textarea
         ><br /><br />
 
-        <label for="state">State</label>
+        <label for="state">State:</label>
         <select>
           <option value="">Select State</option>
           <option value="goa">Goa</option>
@@ -94,8 +95,9 @@
         <br /><br />
 
         <input type="reset" onclick="reset()"/>
-        <input type="submit" />
+        <input type="submit" /><br><br>
         <span></span>
+        </fieldset>
         <!-- </fieldset> -->
       </form>
     </div>

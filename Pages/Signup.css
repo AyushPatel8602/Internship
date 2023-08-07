@@ -10,7 +10,9 @@ form {
     /* yaxis */
     align-items: center;
     justify-content: center;  
-    width: 50%;  
+    height: fit-content;
+    width: 50%;
+    margin-top: 20px;
     text-align: center;
     margin-left: 25%;
     padding: 10px;
