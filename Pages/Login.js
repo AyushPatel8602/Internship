@@ -1,7 +1,10 @@
-const cancel = ()=> {
-    let email = document.getElementById("email");
-    let pass = document.getElementById("pass");
+function togglePassword() {
+    var password = document.getElementById("password");
+    var checkbox = document.getElementById("showPassword");
 
-    email.value = "";
-    pass.value = "";
+    if (checkbox.checked) {
+        password.type = "text";
+    } else {
+        password.type = "password";
+    }
 }
